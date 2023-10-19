@@ -29,21 +29,23 @@ function myKeyDown(e)
 keyPressed = e.keyCode;
 console.log(keyPressed);
 
-	if(keyPressed == '82') // adicione os códigos adequados às teclas
+	if(keyPressed == '63') // adicione os códigos adequados às teclas
 	{
 
-		// enviar ranger escarlate
+		new_image('rr1.png')
 	}
 	if(keyPressed == '86')
 	{
 		blockX = 200;
-		// enviar ranger verde
+		// enviar ranger verde]
+		new_image('pr.png')
+	}
 	}
 	
 	if(keyPressed == '65')
 	{
 		blockX =350;
-		// enviar ranger amarelo
+		
 	}
 	if(keyPressed == '82')
 	{
@@ -53,7 +55,9 @@ console.log(keyPressed);
 	if(keyPressed == '73')
 	{
 		blockX = 700;
-	// enviar ranger índigo
+	
+		new_image('yr.png')
+	}
 	}
 	
 }
